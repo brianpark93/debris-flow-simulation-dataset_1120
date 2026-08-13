@@ -1,0 +1,10 @@
+column,symbol,group,description,unit,availability,derivation
+volume_m3,V_df,pre-event,Total mobilized debris-flow volume,m^3,Before impact,Generated scenario descriptor
+slope_deg,theta,pre-event,Terrain or flume slope angle,degree,Before impact,Generated scenario descriptor
+potential_energy_MJ,PE_df,pre-event,Initial gravitational potential energy of the debris mass,MJ,Before impact,Sum of particle gravitational potential energies
+impact_duration_s,t_c,impact,Duration of debris–tower contact,s,During or after impact,Extracted from the contact-force history
+sleout_energy_max_J,E_imp,impact,Mechanical impact energy transferred during contact,J,During or after impact,Time integral of force multiplied by velocity
+rcforce_force_max_N,F_max,impact,Maximum impact force,N,During or after impact,Maximum of the impact-force history
+rcforce_impulse_Ns,I,impact,Total impulse transferred during contact,N*s,During or after impact,Time integral of the impact-force history
+plastic_energy_MJ_front,E_f,damage response,Accumulated plastic energy in the lowest front-leg members,MJ,After impact,Extracted from the structural response
+plastic_energy_MJ_rear,E_r,damage response,Accumulated plastic energy in the lowest rear-leg members,MJ,After impact,Extracted from the structural response

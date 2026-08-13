@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the associated manuscript and this repository."
+title: "Debris Flow–Transmission Tower Impact Dataset"
+type: dataset
+authors:
+  - family-names: Park
+    given-names: Dawon
+  - family-names: Kim
+    given-names: Homin
+  - family-names: Hong
+    given-names: Jung-Wuk
+repository-code: "https://github.com/brianpark93/debris-flow-simulation-dataset_1120"
+url: "https://github.com/brianpark93/debris-flow-simulation-dataset_1120"
+abstract: "Quality-controlled SPH–FEM simulation descriptors and structural damage responses for debris-flow impact on a transmission tower."
+keywords:
+  - debris flow
+  - transmission tower
+  - fluid–structure interaction
+  - structural damage
+  - machine learning benchmark
